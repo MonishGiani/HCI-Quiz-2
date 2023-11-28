@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .infographic {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .data-point {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .data-point:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  .info {
+    display: none;
+  }
+  
+  .info.active {
+    display: block;
+  }
+  
